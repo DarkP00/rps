@@ -87,26 +87,26 @@ background-color: #3B0270;
     transition: .2;
 }
 .control button:nth-child(1) {
-    background-image: url(images/rok.png);
+    background-image: url("images/rok.png");
 }
 .control button:nth-child(2) {
-    background-image: url(images/ppr.png);
+    background-image: url("images/ppr.png");
 }
 .control button:nth-child(3) {
-    background-image: url(images/ssr.png);
+    background-image: url("images/ssr.png");
 }
 .control button:hover {
     background-color: #E9B3FB;
     border-color: #3B0270;
 }
 .control button:nth-child(1):hover {
-    background-image: url(images/hrok.png);
+    background-image: url("images/hrok.png");
 }
 .control button:nth-child(2):hover {
-    background-image: url(images/hppr.png);
+    background-image: url("images/hppr.png");
 }
 .control button:nth-child(3):hover {
-    background-image: url(images/hssr.png);
+    background-image: url("images/hssr.png");
 }
 .state {
     display: flex;
