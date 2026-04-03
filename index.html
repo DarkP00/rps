@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Play the classic Rock Paper Scissors game online. Challenge the computer and track your wins, losses, and ties!">
+    
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anta&family=Goldman:wght@400;700&display=swap" rel="stylesheet">
+    <title>Rock Paper Scissors Game - Play Online</title>
+</head>
+<body>
+    <div class="game">
+        <h1>Rock Paper Sissiors</h1>
+        <div class="screen">
+            <div class="player">
+                <h4>Your Choice</h4>
+                <div><img src="" alt="Player Choice" id="playerimg"/></div>
+            </div>
+            <div class="comp">
+                <h4>Computer's <br> Choice</h4>
+                <div><img src="" alt="Computer Choice" id="compsign"/></div>
+            </div>
+        </div>
+        <div class="control">
+            <button type="button" id="rock" aria-label="Choose Rock"></button>
+            <button type="button" id="paper" aria-label="Choose Paper"></button>
+            <button type="button" id="sisor" aria-label="Choose Scissors"></button>
+        </div>    
+        <div class="state">
+            <h5 id="win" role="status" style="color: rgba(0, 255, 0, 0.7);" aria-live="polite"></h5>
+            <h5 id="tie" role="status" style="color: rgba(255, 255, 255, .7)" aria-live="polite"></h5>
+            <h5 id="lose" role="status" style="color: rgba(255, 0, 0, .7)" aria-live="polite"></h5>
+        </div>
+        <button type="button" id="restart" aria-label="Restart The Scores">Restart</button>
+        <p id="sig">BY PokaChu</p>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
